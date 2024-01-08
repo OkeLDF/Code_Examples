@@ -15,7 +15,7 @@ int main(){
 	
 	puts("the name of the program is wrong, so it will cause an error:");
 	
-	if(execv("C:\\C\\samples\\CommandLineOptions\\spea", args)){
+	if(execv("C:\\Users\\otavi\\Documents\\GitHub\\Code_Examples\\C\\CommandLineOptions\\spea", args)){
 		printf("\033[31mError: %s\033[m", strerror(errno));
 	}
 	

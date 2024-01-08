@@ -3,7 +3,7 @@
 
 int main(){
 	execl(
-		"C:\\C\\samples\\CommandLineOptions\\speak",
+		"C:\\Users\\otavi\\Documents\\GitHub\\Code_Examples\\C\\CommandLineOptions\\speak",
 		"speak",
 		"-c33",
 		"-v",
